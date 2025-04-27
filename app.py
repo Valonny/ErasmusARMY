@@ -46,7 +46,9 @@ HTML_TEMPLATE = """
 <head>
     <title>ErasmusARMY Recruitment FAQ</title>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
+        
+        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; 
+         background-color : "4b5320"}
         .logo { margin-bottom: 20px; }
         form { margin: 20px auto; width: 300px; }
     </style>
