@@ -46,9 +46,15 @@ HTML_TEMPLATE = """
 <head>
     <title>ErasmusARMY Recruitment FAQ</title>
     <style>
-        
-        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; 
-         background-color : "4b5320"}
+        body { background-color: #f4f4f4; }
+        h1 { color: #333; }
+        h3 { color: #555; }
+        p { color: #666; }
+        a { color: #007BFF; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        img { max-width: 100%; height: auto; }
+        .container { max-width: 800px; margin: auto; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); } 
+       body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
         .logo { margin-bottom: 20px; }
         form { margin: 20px auto; width: 300px; }
     </style>
